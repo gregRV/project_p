@@ -1,0 +1,198 @@
+body {
+  background-color: #bdc3c7;
+  background-image: url('../images/pogs_hd.jpg');
+  background-size: 100%;
+}
+
+header{
+  padding: 0 50px 0 50px;
+  height: 60px;
+  background-color: #1abc9c;
+  line-height: 60px;
+  opacity: 0.8;
+  width: 100%;
+  top: 0;
+  border-bottom: 3px solid white;
+}
+
+header nav {
+  float: right;
+  height: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+header a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ecf0f1;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+header a:hover {
+	color: white;
+	-webkit-moz-transition: color 0.3s linear;
+  -webkit-transition: color 0.3s linear;
+}
+
+header nav ul{
+  line-height: 60px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  margin-right: 60px;
+
+}
+header nav li{
+  float: left;
+  line-height: 60px;
+  padding: 0;
+  margin: 0 10px 0 10px;
+}
+
+h1, h2, h3 {
+	color: white;
+  letter-spacing: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.pog-img {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border: 6px solid #F5F7D0;
+	margin: 16px;
+
+	/*GOOD CALL WITH USING PERCENTAGES, SAMSKIE!*/
+	-moz-border-radius: 90%;
+  -webkit-border-radius: 90%;
+  -moz-box-shadow: 8px 10px 8px black;
+  -webkit-box-shadow: 8px 10px 8px black;
+  box-shadow: 8px 10px 8px black;
+}
+
+.form-profile {
+  background-image: url('../images/wooden_table.jpg');
+  border: 3px solid white;
+  margin: 150px auto;
+  background-color: #1abc9c;
+  border-radius: 20px;
+  width: 525px;
+  padding: 30px;
+  text-align: center;
+}
+
+.form-profile input {
+  size: large;
+  height: 40px;
+  margin: 15px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.pog-profile {
+  background-image: url('../images/wooden_table.jpg');
+	border: 3px solid white;
+  margin: 30px auto;
+  background-color: #1abc9c;
+	border-radius: 20px;
+	width: 55%;
+	padding: 30px;
+}
+
+.page-top {
+	text-align: center;
+	font-size: 150%;
+	letter-spacing: 3px;
+  text-shadow: 0 0 2px #000;
+  -moz-text-shadow: 0 3px 5px black;
+  -webkit-text-shadow: 5px 5px 5px black;
+  text-shadow: 5px 5px 3px black;
+}
+
+.pog-solo {
+  background-image: url('../images/wooden_table.jpg');
+  border: 3px solid white;
+  margin: 30px auto;
+  background-color: #1abc9c;
+  border-radius: 20px;
+  width: 525px;
+  padding: 30px;
+  text-align: center;
+}
+
+.solo-text {
+  color: white;
+  font-size: 22px;
+  font-style: italic;
+}
+
+.pog-loading {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  border: 3px solid #F5F7D0;
+  margin: 8px;
+
+  /*GOOD CALL WITH USING PERCENTAGES, SAMSKIE!*/
+  -moz-border-radius: 90%;
+  -webkit-border-radius: 90%;
+  -moz-box-shadow: 8px 10px 8px black;
+  -webkit-box-shadow: 8px 10px 8px black;
+  box-shadow: 8px 10px 8px black;
+}
+
+.play-btn {
+  /*visibility: hidden;*/
+  display: none;
+  color: #1abc9c;
+  background-color: #FFFFFE;
+  position: relative;
+  left: 46%;
+  width: 120px;
+  height: 60px;
+  border: 6px solid #F5F7D0;
+  border-radius: 5px;
+  -moz-box-shadow: 8px 10px 8px black;
+  -webkit-box-shadow: 8px 10px 8px black;
+  box-shadow: 8px 10px 8px black;
+}
+
+.play-btn:hover {
+  color: #FFFFFE;
+  background-color: #1abc9c;
+}
+
+
+
+
+
+/***********************/
+/*    DRAG AND DROP!   */
+/***********************/
+.droppable {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  width:800px;
+}
+
+.draggable {
+/*TAKEN FROM POG-IMG CLASS*/
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 6px solid #F5F7D0;
+  margin: 16px;
+  -moz-border-radius: 90%;
+  -webkit-border-radius: 90%;
+  -moz-box-shadow: 8px 10px 8px black;
+  -webkit-box-shadow: 8px 10px 8px black;
+  box-shadow: 8px 10px 8px black;
+}

@@ -1,0 +1,36 @@
+<script src="/js/game_setup.js"></script>
+
+<div class='page-top'>
+<h3>Select Pogs to Play!</h3>
+</div>
+
+<div class='droppable'>
+	<p>(Drag-Area placeholder)</p>
+</div>
+<br><br>
+
+<!-- JAKE: 'SET POSITION TO RELATIVE, THEN CHANGE POSITION' -->
+<button class='play-btn' type="button">Ready!</button>
+
+<div class="pog-profile">
+	<% @pogs.each do |pog| %>
+		<!-- USE DATA ATTR FOR PASSING IN POG INFO -->
+		<img class="draggable" src="<%= pog.img_url %>" data-id="<%= pog.id %>" />
+	<% end %>
+</div>
+
+
+
+
+<!-- PICK UP TOMORROW 7/30
+CLICK ON POG TO ADD TO LOADING AREA [X]
+WHEN AT LEAST 1 POG IS IN LOADING AREA, DISPLAY 'PLAY GAME' BUTTON [X]
+
+TRY RE-DOING PARTIAL USE, .CLONE() -> .SHOW() INSTEAD OF HITTING SERVER
+
+HAVE A CSS CLASS TO DISPLAY 'BACK IMAGE' OF POG
+	THIS IS WHAT SHOWS IN THE STACK, AWAITING THE PLAYER'S MOVE
+	(maybe google sketches -> 'PFK')
+
+ADD 'SIGN IN WITH TWITTER' TO TRELLO
+-->

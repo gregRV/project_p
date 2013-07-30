@@ -1,0 +1,10 @@
+<div class='page-top'>
+<h1>Hello, <%= @user.name %>!</h1>
+<h1>Here are your Pogs</h1>
+</div>
+
+<div class="pog-profile">
+	<% @user.pogs.each do |pog| %>
+		<a href="/pogs/<%= pog.id %>"><img class="pog-img" src="<%= pog.img_url %>"></a>
+	<% end %>
+</div>

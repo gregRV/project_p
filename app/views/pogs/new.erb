@@ -1,0 +1,11 @@
+<div class="form-profile">
+	<form id='create-pogs-form' action="/pogs" method="POST">
+		<%= erb(:_new_pog, :layout => false) %>
+
+		<div class='new-pog-area'></div>
+
+		<button class='add-pog' type='button'>Add another Pog!</button><br>
+
+		<input type="submit">
+	</form>
+</div>

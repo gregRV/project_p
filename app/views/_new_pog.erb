@@ -1,0 +1,29 @@
+<div class='new-pog-partial'>
+	<h1 class="page-top">New Pog</h1>
+	<input type="text" name="pog[][name]" placeholder="Name"><br>
+	<input type="text" name="pog[][img_url]" placeholder="URL"><br>
+	<input type="text" name="pog[][description]" placeholder="Description"><br>
+	<input type="hidden" name="pog[][creator_id]" value="<%= current_user.id %>"><br>
+</div>
+
+
+<!-- 
+Nate's talk
+
+As forms get more dynamic/nested...
+form[]questions[]choices[answers]
+
+demo_hash[cat] = 'garfield'
+demo_hash[cat] = 'Lion-O'
+be aware of keys of hashes being overriden as you dynamically add more forms
+
+word
+params will place this in brackets => [word]
+
+[word]...
+key, user has input a respective value
+
+word[]...
+will shovel everything on the right of it into empty array
+-->
+
