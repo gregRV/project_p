@@ -1,10 +1,10 @@
-<br><br><br>
 <% if logged_in? %>
 	<div class="page-top"><a href="/pogs/new">Create a New Pog</a> ||
 	 <a href="/games/new">Play a New Game</a></div>
 	<br>
 <% end %>
-<div class="page-top"><h3>Trending</h3></div>
+
+<h3 class="page-top">Trending</h3>
 <div class="pog-profile">
 	<% @pogs.each do |pog| %>
 		<a href="pogs/<%= pog.id %>"><img class="pog-img" src="<%= pog.img_url %>"></a>

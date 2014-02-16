@@ -110,10 +110,7 @@ a {
 	text-align: center;
 	font-size: 150%;
 	letter-spacing: 3px;
-  text-shadow: 0 0 2px #000;
-  -moz-text-shadow: 0 3px 5px black;
-  -webkit-text-shadow: 5px 5px 5px black;
-  text-shadow: 5px 5px 3px black;
+  text-shadow: 3px 3px 3px black;
 }
 
 .pog-solo {
@@ -125,12 +122,21 @@ a {
   width: 525px;
   padding: 30px;
   text-align: center;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+.pog-solo h1 {
+  color: #8DD5C4;
+  text-shadow: 3px 3px 3px black;
 }
 
 .solo-text {
-  color: white;
   font-size: 22px;
   font-style: italic;
+  font-weight: bold;
+  color: #1abc9c;
+  letter-spacing: 3px;
 }
 
 .pog-loading {
