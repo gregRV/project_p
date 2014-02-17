@@ -1,4 +1,6 @@
 body {
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 2em;
   min-width: 480px;
   background-color: #bdc3c7;
   background-image: url('../images/pogs_hd.jpg');
@@ -34,8 +36,8 @@ header a {
 }
 
 header a:hover {
-	color: white;
-	-webkit-moz-transition: color 0.3s linear;
+  color: yellow;
+  -webkit-moz-transition: color 0.3s linear;
   -webkit-transition: color 0.3s linear;
 }
 
@@ -55,7 +57,7 @@ header nav li{
 }
 
 h1, h2, h3 {
-	color: white;
+  color: white;
   letter-spacing: 3px;
   text-align: center;
   text-shadow: 3px 3px 3px black,
@@ -63,8 +65,8 @@ h1, h2, h3 {
 }
 
 a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
 #separator {
@@ -75,13 +77,13 @@ a {
 }
 
 .pog-img {
-	display: inline-block;
-	width: 150px;
-	height: 150px;
-	border: 6px solid #F5F7D0;
-	margin: 16px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 6px solid #F5F7D0;
+  margin: 16px;
 
-	/*GOOD CALL WITH USING PERCENTAGES, SAMSKIE!*/
+  /*GOOD CALL WITH USING PERCENTAGES, SAMSKIE!*/
   -moz-border-radius: 90%;
   -webkit-border-radius: 90%;
   
@@ -115,51 +117,50 @@ a {
 
 .pog-profile {
   background-image: url('../images/wooden_table.jpg');
-	border: 8px solid white;
+  border: 8px solid white;
   margin: 30px auto;
   background-color: #1abc9c;
-	border-radius: 20px;
-	width: 55%;
-	padding: 30px;
+  border-radius: 20px;
+  width: 55%;
+  padding: 30px;
   box-shadow: 5px 5px 5px black,
               -5px -5px 5px black;
 }
 
 .page-top {
   margin-top: 40px;
-	text-align: center;
-	font-size: 150%;
-	letter-spacing: 3px;
-  text-shadow: 3px 3px 3px black,
-              -3px -3px 3px black;
+}
+
+/*WHY DOES THIS EFFECT MARGIN IN SINGLE POG?!*/
+.page-top h1,h2{
+  margin: 0;
 }
 
 .pog-solo {
   background-image: url('../images/wooden_table.jpg');
-  border: 8px solid white;
   margin: 30px auto;
-  background-color: #1abc9c;
-  border-radius: 20px;
   width: 525px;
   padding: 30px;
   text-align: center;
   color: white;
-  text-shadow: 3px 3px 3px black,
-              -3px -3px 3px black;
-  box-shadow: 5px 5px 5px black,
-              -5px -5px 5px black;
+  background-color: #1abc9c;
+  border: 8px solid white;
+  border-radius: 20px;
+  box-shadow: -5px -5px 5px black, 5px 5px 5px black;
 }
 
 .pog-solo h1 {
-  color: #8DD5C4;
+  color: #1abc9c;
 }
 
-.solo-text {
-  font-size: 22px;
+.pog-solo .solo-text {
+  font-family: helvetica;
   font-style: italic;
   font-weight: bold;
-  color: #1abc9c;
+  color: #8FFFDD;
   letter-spacing: 3px;
+  text-shadow: -3px -3px 3px black,
+                3px 3px 3px black;
 }
 
 .pog-loading {
