@@ -129,11 +129,14 @@ a {
 
 .page-top {
   margin-top: 40px;
+  text-align: center;
+  text-shadow: -3px -3px 3px black,
+                3px 3px 3px black;
 }
 
 /*WHY DOES THIS EFFECT MARGIN IN SINGLE POG?!*/
 .page-top h1,h2{
-  margin: 0;
+  /*margin: 0;*/
 }
 
 .pog-solo {
