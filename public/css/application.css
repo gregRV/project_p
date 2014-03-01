@@ -1,7 +1,11 @@
 body {
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 2em;
+  min-width: 480px;
   background-color: #bdc3c7;
   background-image: url('../images/pogs_hd.jpg');
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 header{
@@ -32,8 +36,8 @@ header a {
 }
 
 header a:hover {
-	color: white;
-	-webkit-moz-transition: color 0.3s linear;
+  color: yellow;
+  -webkit-moz-transition: color 0.3s linear;
   -webkit-transition: color 0.3s linear;
 }
 
@@ -53,25 +57,36 @@ header nav li{
 }
 
 h1, h2, h3 {
-	color: white;
+  color: white;
   letter-spacing: 3px;
+  text-align: center;
+  text-shadow: 3px 3px 3px black,
+              -3px -3px 3px black;
 }
 
 a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
+}
+
+#separator {
+  color: #1abc9c;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px black,
+              -3px -3px 3px black;  
 }
 
 .pog-img {
-	display: inline-block;
-	width: 150px;
-	height: 150px;
-	border: 6px solid #F5F7D0;
-	margin: 16px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 6px solid #F5F7D0;
+  margin: 16px;
 
-	/*GOOD CALL WITH USING PERCENTAGES, SAMSKIE!*/
-	-moz-border-radius: 90%;
+  /*GOOD CALL WITH USING PERCENTAGES, SAMSKIE!*/
+  -moz-border-radius: 90%;
   -webkit-border-radius: 90%;
+  
   -moz-box-shadow: 8px 10px 8px black;
   -webkit-box-shadow: 8px 10px 8px black;
   box-shadow: 8px 10px 8px black;
@@ -79,58 +94,76 @@ a {
 
 .form-profile {
   background-image: url('../images/wooden_table.jpg');
-  border: 3px solid white;
   margin: 150px auto;
   background-color: #1abc9c;
   border-radius: 20px;
   width: 525px;
   padding: 30px;
   text-align: center;
+  border: 3px solid white;
+  box-shadow: 5px 5px 5px black,
+              -5px -5px 5px black;
 }
 
-.form-profile input {
+.form-profile input, button {
   size: large;
   height: 40px;
   margin: 15px;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 3px 3px 3px black,
+              -3px -3px 3px black;
 }
 
 .pog-profile {
   background-image: url('../images/wooden_table.jpg');
-	border: 3px solid white;
+  border: 8px solid white;
   margin: 30px auto;
   background-color: #1abc9c;
-	border-radius: 20px;
-	width: 55%;
-	padding: 30px;
+  border-radius: 20px;
+  width: 55%;
+  padding: 30px;
+  box-shadow: 5px 5px 5px black,
+              -5px -5px 5px black;
 }
 
 .page-top {
-	text-align: center;
-	font-size: 150%;
-	letter-spacing: 3px;
-  text-shadow: 0 0 2px #000;
-  -moz-text-shadow: 0 3px 5px black;
-  -webkit-text-shadow: 5px 5px 5px black;
-  text-shadow: 5px 5px 3px black;
+  margin-top: 40px;
+  text-align: center;
+  text-shadow: -3px -3px 3px black,
+                3px 3px 3px black;
+}
+
+/*WHY DOES THIS EFFECT MARGIN IN SINGLE POG?!*/
+.page-top h1,h2{
+  /*margin: 0;*/
 }
 
 .pog-solo {
   background-image: url('../images/wooden_table.jpg');
-  border: 3px solid white;
   margin: 30px auto;
-  background-color: #1abc9c;
-  border-radius: 20px;
   width: 525px;
   padding: 30px;
   text-align: center;
+  color: white;
+  background-color: #1abc9c;
+  border: 8px solid white;
+  border-radius: 20px;
+  box-shadow: -5px -5px 5px black, 5px 5px 5px black;
 }
 
-.solo-text {
-  color: white;
-  font-size: 22px;
+.pog-solo h1 {
+  color: #1abc9c;
+}
+
+.pog-solo .solo-text {
+  font-family: helvetica;
   font-style: italic;
+  font-weight: bold;
+  color: #8FFFDD;
+  letter-spacing: 3px;
+  text-shadow: -3px -3px 3px black,
+                3px 3px 3px black;
 }
 
 .pog-loading {
